@@ -30,7 +30,7 @@ void FirstEQAudioProcessorEditor::paint (juce::Graphics& g)
 
     g.setColour (juce::Colours::white);
     g.setFont (juce::FontOptions (15.0f));
-    g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
+    g.drawFittedText ("Hello This Is My First EQ", getLocalBounds(), juce::Justification::centred, 1);
 }
 
 void FirstEQAudioProcessorEditor::resized()
